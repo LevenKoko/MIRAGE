@@ -1,0 +1,284 @@
+{
+  "by_split": {
+    "dev": {
+      "canaries_per_document": {
+        "1": 16,
+        "2": 70,
+        "3": 14
+      },
+      "canary_formats": {
+        "account": 41,
+        "identifier": 42,
+        "other": 43,
+        "path": 39,
+        "url": 33
+      },
+      "chunks_per_document": {
+        "5": 9,
+        "6": 62,
+        "7": 15,
+        "8": 13,
+        "9": 1
+      },
+      "counts": {
+        "alignments": 2228,
+        "canaries": 198,
+        "chunks": 635,
+        "dependencies": 166,
+        "documents": 100,
+        "occurrences": 1608,
+        "paragraphs": 641,
+        "sections": 500,
+        "units": 1442
+      },
+      "dependency_intensity": {
+        "N0": 26,
+        "N1": 21,
+        "N2": 25,
+        "N3": 28
+      },
+      "document_tokens": {
+        "max": 857,
+        "mean": 586.5,
+        "median": 562.0,
+        "min": 505
+      },
+      "families": {
+        "A01": 5,
+        "A02": 5,
+        "A03": 5,
+        "A04": 5,
+        "C01": 4,
+        "C02": 4,
+        "C03": 4,
+        "C04": 4,
+        "I01": 4,
+        "I02": 4,
+        "I03": 4,
+        "I04": 4,
+        "P01": 4,
+        "P02": 4,
+        "P03": 4,
+        "P04": 4,
+        "R01": 4,
+        "R02": 4,
+        "R03": 4,
+        "R04": 4,
+        "U01": 4,
+        "U02": 4,
+        "U03": 4,
+        "U04": 4
+      },
+      "gold_per_document": {
+        "10": 3,
+        "11": 6,
+        "12": 10,
+        "13": 14,
+        "14": 14,
+        "15": 22,
+        "16": 16,
+        "17": 9,
+        "18": 5,
+        "19": 1
+      },
+      "unit_types": {
+        "amount_numeric": 190,
+        "canary_string": 198,
+        "date_time": 145,
+        "email_account": 90,
+        "entity_mention": 197,
+        "identifier_case_id": 196,
+        "other_non_anchorable": 100,
+        "rare_domain_ngram": 140,
+        "url_path_token": 186
+      }
+    },
+    "shadow": {
+      "canaries_per_document": {
+        "1": 9000,
+        "2": 10000,
+        "3": 1000
+      },
+      "canary_formats": {
+        "account": 6429,
+        "identifier": 6286,
+        "other": 6385,
+        "path": 6429,
+        "url": 6471
+      },
+      "chunks_per_document": {
+        "4": 1063,
+        "5": 12330,
+        "6": 3738,
+        "7": 2329,
+        "8": 540
+      },
+      "counts": {
+        "alignments": 308385,
+        "canaries": 32000,
+        "chunks": 108953,
+        "dependencies": 32465,
+        "documents": 20000,
+        "occurrences": 308385,
+        "paragraphs": 142405,
+        "sections": 100000,
+        "units": 275920
+      },
+      "dependency_intensity": {
+        "N0": 4979,
+        "N1": 5077,
+        "N2": 4931,
+        "N3": 5013
+      },
+      "document_tokens": {
+        "max": 1000,
+        "mean": 628.334,
+        "median": 586.0,
+        "min": 500
+      },
+      "families": {
+        "A01": 1667,
+        "A02": 1667,
+        "C01": 1667,
+        "C02": 1667,
+        "I01": 1666,
+        "I02": 1666,
+        "P01": 1667,
+        "P02": 1667,
+        "R01": 1666,
+        "R02": 1666,
+        "U01": 1667,
+        "U02": 1667
+      },
+      "gold_per_document": {
+        "10": 500,
+        "11": 1200,
+        "12": 2600,
+        "13": 4200,
+        "14": 4700,
+        "15": 3800,
+        "16": 2100,
+        "17": 700,
+        "18": 180,
+        "19": 20
+      },
+      "unit_types": {
+        "amount_numeric": 37303,
+        "canary_string": 32000,
+        "date_time": 28694,
+        "email_account": 17244,
+        "entity_mention": 37404,
+        "identifier_case_id": 37314,
+        "other_non_anchorable": 20000,
+        "rare_domain_ngram": 28641,
+        "url_path_token": 37320
+      }
+    },
+    "test": {
+      "canaries_per_document": {
+        "1": 99,
+        "2": 421,
+        "3": 80
+      },
+      "canary_formats": {
+        "account": 241,
+        "identifier": 226,
+        "other": 227,
+        "path": 233,
+        "url": 254
+      },
+      "chunks_per_document": {
+        "10": 3,
+        "11": 1,
+        "5": 78,
+        "6": 376,
+        "7": 84,
+        "8": 53,
+        "9": 5
+      },
+      "counts": {
+        "alignments": 13677,
+        "canaries": 1181,
+        "chunks": 3744,
+        "dependencies": 1016,
+        "documents": 600,
+        "occurrences": 9894,
+        "paragraphs": 3645,
+        "sections": 3000,
+        "units": 8878
+      },
+      "dependency_intensity": {
+        "N0": 90,
+        "N1": 180,
+        "N2": 210,
+        "N3": 120
+      },
+      "document_tokens": {
+        "max": 995,
+        "mean": 581.072,
+        "median": 552.0,
+        "min": 500
+      },
+      "families": {
+        "A01": 25,
+        "A02": 25,
+        "A03": 25,
+        "A04": 25,
+        "C01": 25,
+        "C02": 25,
+        "C03": 25,
+        "C04": 25,
+        "I01": 25,
+        "I02": 25,
+        "I03": 25,
+        "I04": 25,
+        "P01": 25,
+        "P02": 25,
+        "P03": 25,
+        "P04": 25,
+        "R01": 25,
+        "R02": 25,
+        "R03": 25,
+        "R04": 25,
+        "U01": 25,
+        "U02": 25,
+        "U03": 25,
+        "U04": 25
+      },
+      "gold_per_document": {
+        "10": 10,
+        "11": 20,
+        "12": 50,
+        "13": 80,
+        "14": 82,
+        "15": 138,
+        "16": 100,
+        "17": 70,
+        "18": 40,
+        "19": 10
+      },
+      "unit_types": {
+        "amount_numeric": 1186,
+        "canary_string": 1181,
+        "date_time": 883,
+        "email_account": 586,
+        "entity_mention": 1179,
+        "identifier_case_id": 1187,
+        "other_non_anchorable": 600,
+        "rare_domain_ngram": 890,
+        "url_path_token": 1186
+      }
+    }
+  },
+  "totals": {
+    "alignments": 324290,
+    "canaries": 33379,
+    "chunks": 113332,
+    "dependencies": 33647,
+    "documents": 20700,
+    "occurrences": 319887,
+    "paragraphs": 146691,
+    "sections": 103500,
+    "units": 286240
+  }
+}

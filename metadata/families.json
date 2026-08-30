@@ -1,0 +1,530 @@
+[
+  {
+    "document_counts": {
+      "dev": 5,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "A01",
+    "name": "Account access review",
+    "nouns": [
+      "account",
+      "scope",
+      "review"
+    ],
+    "roles": [
+      "requester",
+      "reviewer",
+      "owner"
+    ],
+    "scene": "access review",
+    "seen_in_shadow": true,
+    "theme": "account"
+  },
+  {
+    "document_counts": {
+      "dev": 5,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "A02",
+    "name": "Credential rotation notice",
+    "nouns": [
+      "service",
+      "rotation",
+      "credential"
+    ],
+    "roles": [
+      "operator",
+      "owner",
+      "approver"
+    ],
+    "scene": "credential rotation",
+    "seen_in_shadow": true,
+    "theme": "account"
+  },
+  {
+    "document_counts": {
+      "dev": 5,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "A03",
+    "name": "User migration handoff",
+    "nouns": [
+      "source account",
+      "target account",
+      "migration"
+    ],
+    "roles": [
+      "source owner",
+      "recipient",
+      "coordinator"
+    ],
+    "scene": "migration handoff",
+    "seen_in_shadow": false,
+    "theme": "account"
+  },
+  {
+    "document_counts": {
+      "dev": 5,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "A04",
+    "name": "Customer account update",
+    "nouns": [
+      "customer record",
+      "account",
+      "support case"
+    ],
+    "roles": [
+      "customer lead",
+      "agent",
+      "owner"
+    ],
+    "scene": "customer account update",
+    "seen_in_shadow": false,
+    "theme": "account"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "C01",
+    "name": "Meeting reschedule",
+    "nouns": [
+      "meeting",
+      "calendar",
+      "agenda"
+    ],
+    "roles": [
+      "organizer",
+      "participant",
+      "coordinator"
+    ],
+    "scene": "meeting reschedule",
+    "seen_in_shadow": true,
+    "theme": "calendar"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "C02",
+    "name": "Maintenance window",
+    "nouns": [
+      "system",
+      "window",
+      "maintenance"
+    ],
+    "roles": [
+      "operator",
+      "owner",
+      "reviewer"
+    ],
+    "scene": "maintenance window",
+    "seen_in_shadow": true,
+    "theme": "calendar"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "C03",
+    "name": "Deadline coordination",
+    "nouns": [
+      "project",
+      "milestone",
+      "deadline"
+    ],
+    "roles": [
+      "lead",
+      "approver",
+      "coordinator"
+    ],
+    "scene": "deadline coordination",
+    "seen_in_shadow": false,
+    "theme": "calendar"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "C04",
+    "name": "Appointment itinerary",
+    "nouns": [
+      "appointment",
+      "itinerary",
+      "booking"
+    ],
+    "roles": [
+      "traveler",
+      "host",
+      "coordinator"
+    ],
+    "scene": "appointment itinerary",
+    "seen_in_shadow": false,
+    "theme": "calendar"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "P01",
+    "name": "Purchase approval",
+    "nouns": [
+      "purchase",
+      "vendor",
+      "approval"
+    ],
+    "roles": [
+      "requester",
+      "reviewer",
+      "approver"
+    ],
+    "scene": "purchase approval",
+    "seen_in_shadow": true,
+    "theme": "approval"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "P02",
+    "name": "Access request approval",
+    "nouns": [
+      "system",
+      "role",
+      "access request"
+    ],
+    "roles": [
+      "requester",
+      "owner",
+      "approver"
+    ],
+    "scene": "access request approval",
+    "seen_in_shadow": true,
+    "theme": "approval"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "P03",
+    "name": "Change-control approval",
+    "nouns": [
+      "service",
+      "change",
+      "rollback"
+    ],
+    "roles": [
+      "operator",
+      "reviewer",
+      "approver"
+    ],
+    "scene": "change control",
+    "seen_in_shadow": false,
+    "theme": "approval"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "P04",
+    "name": "Policy exception approval",
+    "nouns": [
+      "policy",
+      "exception",
+      "review"
+    ],
+    "roles": [
+      "owner",
+      "reviewer",
+      "approver"
+    ],
+    "scene": "policy exception",
+    "seen_in_shadow": false,
+    "theme": "approval"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "U01",
+    "name": "Deployment path report",
+    "nouns": [
+      "host",
+      "artifact",
+      "release"
+    ],
+    "roles": [
+      "engineer",
+      "owner",
+      "reviewer"
+    ],
+    "scene": "deployment path report",
+    "seen_in_shadow": true,
+    "theme": "location"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1667,
+      "test": 25
+    },
+    "family_id": "U02",
+    "name": "Document-link handoff",
+    "nouns": [
+      "document",
+      "link",
+      "handoff"
+    ],
+    "roles": [
+      "author",
+      "recipient",
+      "owner"
+    ],
+    "scene": "document link handoff",
+    "seen_in_shadow": true,
+    "theme": "location"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "U03",
+    "name": "Repository/artifact location",
+    "nouns": [
+      "repository",
+      "artifact",
+      "version"
+    ],
+    "roles": [
+      "maintainer",
+      "owner",
+      "reviewer"
+    ],
+    "scene": "repository artifact location",
+    "seen_in_shadow": false,
+    "theme": "location"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "U04",
+    "name": "Backup/recovery runbook",
+    "nouns": [
+      "backup",
+      "host",
+      "recovery"
+    ],
+    "roles": [
+      "operator",
+      "owner",
+      "reviewer"
+    ],
+    "scene": "backup recovery runbook",
+    "seen_in_shadow": false,
+    "theme": "location"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1666,
+      "test": 25
+    },
+    "family_id": "I01",
+    "name": "Invoice reconciliation",
+    "nouns": [
+      "invoice",
+      "vendor",
+      "reconciliation"
+    ],
+    "roles": [
+      "claimant",
+      "reviewer",
+      "approver"
+    ],
+    "scene": "invoice reconciliation",
+    "seen_in_shadow": true,
+    "theme": "finance"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1666,
+      "test": 25
+    },
+    "family_id": "I02",
+    "name": "Expense reimbursement",
+    "nouns": [
+      "expense",
+      "claim",
+      "reimbursement"
+    ],
+    "roles": [
+      "claimant",
+      "reviewer",
+      "approver"
+    ],
+    "scene": "expense reimbursement",
+    "seen_in_shadow": true,
+    "theme": "finance"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "I03",
+    "name": "Vendor payment",
+    "nouns": [
+      "vendor",
+      "payment",
+      "account"
+    ],
+    "roles": [
+      "vendor lead",
+      "reviewer",
+      "owner"
+    ],
+    "scene": "vendor payment",
+    "seen_in_shadow": false,
+    "theme": "finance"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "I04",
+    "name": "Purchase-order correction",
+    "nouns": [
+      "purchase order",
+      "invoice",
+      "correction"
+    ],
+    "roles": [
+      "requester",
+      "reviewer",
+      "owner"
+    ],
+    "scene": "purchase order correction",
+    "seen_in_shadow": false,
+    "theme": "finance"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1666,
+      "test": 25
+    },
+    "family_id": "R01",
+    "name": "Project kickoff/handoff",
+    "nouns": [
+      "project",
+      "milestone",
+      "handoff"
+    ],
+    "roles": [
+      "lead",
+      "owner",
+      "recipient"
+    ],
+    "scene": "project kickoff and handoff",
+    "seen_in_shadow": true,
+    "theme": "release"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 1666,
+      "test": 25
+    },
+    "family_id": "R02",
+    "name": "Incident escalation",
+    "nouns": [
+      "incident",
+      "host",
+      "runbook"
+    ],
+    "roles": [
+      "reporter",
+      "operator",
+      "owner"
+    ],
+    "scene": "incident escalation",
+    "seen_in_shadow": true,
+    "theme": "release"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "R03",
+    "name": "Release/milestone tracking",
+    "nouns": [
+      "release",
+      "project",
+      "milestone"
+    ],
+    "roles": [
+      "lead",
+      "reviewer",
+      "owner"
+    ],
+    "scene": "release milestone tracking",
+    "seen_in_shadow": false,
+    "theme": "release"
+  },
+  {
+    "document_counts": {
+      "dev": 4,
+      "shadow": 0,
+      "test": 25
+    },
+    "family_id": "R04",
+    "name": "Cross-team status report",
+    "nouns": [
+      "project",
+      "status",
+      "handoff"
+    ],
+    "roles": [
+      "reporter",
+      "lead",
+      "owner"
+    ],
+    "scene": "cross team status report",
+    "seen_in_shadow": false,
+    "theme": "release"
+  }
+]

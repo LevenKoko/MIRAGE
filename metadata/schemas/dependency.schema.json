@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "cross_chunk": {
+      "type": "boolean"
+    },
+    "cross_nonoverlap": {
+      "type": "boolean"
+    },
+    "dependency_intensity": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "minimum_chunk_distance": {
+      "type": "integer"
+    },
+    "planned_repeat": {
+      "type": "boolean"
+    },
+    "relation_id": {
+      "type": "string"
+    },
+    "relation_type": {
+      "type": "string"
+    },
+    "shares_intersecting_chunk": {
+      "type": "boolean"
+    },
+    "source_occurrence_id": {
+      "type": "string"
+    },
+    "source_paragraph_id": {
+      "type": "string"
+    },
+    "source_primary_chunk_id": {
+      "type": "string"
+    },
+    "source_section_id": {
+      "type": "string"
+    },
+    "target_occurrence_id": {
+      "type": "string"
+    },
+    "target_paragraph_id": {
+      "type": "string"
+    },
+    "target_primary_chunk_id": {
+      "type": "string"
+    },
+    "target_section_id": {
+      "type": "string"
+    },
+    "unit_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "relation_id",
+    "document_id",
+    "unit_id",
+    "relation_type",
+    "source_occurrence_id",
+    "target_occurrence_id",
+    "source_section_id",
+    "target_section_id",
+    "source_paragraph_id",
+    "target_paragraph_id",
+    "source_primary_chunk_id",
+    "target_primary_chunk_id",
+    "minimum_chunk_distance",
+    "shares_intersecting_chunk",
+    "cross_chunk",
+    "cross_nonoverlap",
+    "planned_repeat",
+    "dependency_intensity"
+  ],
+  "title": "MIRAGE CanaryDocs repeated-unit dependency",
+  "type": "object"
+}

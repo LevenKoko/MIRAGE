@@ -1,0 +1,64 @@
+{
+  "associated_paper": {
+    "authors": [
+      "Liwen Zheng",
+      "Qing Li",
+      "Qingsong Zou",
+      "Yong Jiang"
+    ],
+    "title": "When Metadata Remembers: Ordered Provenance Enables Document-Level Embedding Inversion",
+    "venue": "EMNLP 2026"
+  },
+  "canonical_format": "normalized JSONL",
+  "canonical_root": "data",
+  "checksums": "metadata/checksums.sha256",
+  "contact": {
+    "email": "zhenglw25@mails.tsinghua.edu.cn",
+    "name": "Liwen Zheng"
+  },
+  "entity_layers": [
+    "documents",
+    "sections",
+    "paragraphs",
+    "chunks",
+    "units",
+    "occurrences",
+    "alignments",
+    "dependencies"
+  ],
+  "hosting": {
+    "data_files_in_this_repository": false,
+    "huggingface_repo_id": "LevenKoko/MIRAGE-CanaryDocs",
+    "huggingface_url": "https://huggingface.co/datasets/LevenKoko/MIRAGE-CanaryDocs",
+    "repository_role": "documentation, schemas, and release metadata"
+  },
+  "evaluation_policy": {
+    "all_annotations_public": true,
+    "test_split": "open labeled reference split"
+  },
+  "file_inventory": "metadata/file_inventory.json",
+  "language": "en",
+  "license": "CC-BY-4.0",
+  "materialized_views_root": "views",
+  "name": "MIRAGE CanaryDocs",
+  "relational_mirror": "database/canarydocs.sqlite",
+  "release_date": "2026-08-30",
+  "schemas": "metadata/schemas",
+  "splits": {
+    "dev": 100,
+    "shadow": 20000,
+    "test": 600
+  },
+  "stable_identifiers": [
+    "document_id",
+    "section_id",
+    "paragraph_id",
+    "chunk_id",
+    "unit_id",
+    "occurrence_id",
+    "alignment_id",
+    "relation_id"
+  ],
+  "statistics": "metadata/statistics.json",
+  "version": "1.0.0"
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "actual_chunk_count": {
+      "type": "integer"
+    },
+    "canary_count": {
+      "type": "integer"
+    },
+    "canonical_text": {
+      "type": "string"
+    },
+    "dependency_intensity": {
+      "enum": [
+        "N0",
+        "N1",
+        "N2",
+        "N3"
+      ]
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "event_signature": {
+      "type": "string"
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "gold_count": {
+      "type": "integer"
+    },
+    "paragraph_count": {
+      "type": "integer"
+    },
+    "section_count": {
+      "type": "integer"
+    },
+    "split": {
+      "enum": [
+        "shadow",
+        "dev",
+        "test"
+      ]
+    },
+    "target_chunks": {
+      "type": "integer"
+    },
+    "text_sha256": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "token_count": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "document_id",
+    "split",
+    "family_id",
+    "title",
+    "canonical_text",
+    "token_count",
+    "target_chunks",
+    "actual_chunk_count",
+    "gold_count",
+    "canary_count",
+    "dependency_intensity",
+    "event_signature",
+    "section_count",
+    "paragraph_count",
+    "text_sha256"
+  ],
+  "title": "MIRAGE CanaryDocs document",
+  "type": "object"
+}

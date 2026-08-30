@@ -1,0 +1,47 @@
+{
+  "offset_convention": "zero-based half-open",
+  "special_tokens_included": false,
+  "tokenizer": {
+    "add_special_tokens": false,
+    "files": {
+      "special_tokens_map.json": {
+        "bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+      },
+      "tokenizer.json": {
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+      },
+      "tokenizer_config.json": {
+        "bytes": 314,
+        "sha256": "ae83fa6ca0333117ff12606020af925d648667ef70d92ff7f27d781ba0ca4544"
+      },
+      "vocab.txt": {
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      }
+    },
+    "name": "intfloat/e5-large-v2",
+    "padding": false,
+    "revision": "local-frozen-corpus",
+    "truncation": false,
+    "use_fast": true
+  },
+  "views": {
+    "dev": {
+      "overlap": 32,
+      "stride": 96,
+      "window": 128
+    },
+    "shadow": {
+      "overlap": 0,
+      "stride": 128,
+      "window": 128
+    },
+    "test": {
+      "overlap": 32,
+      "stride": 96,
+      "window": 128
+    }
+  }
+}

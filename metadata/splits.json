@@ -1,0 +1,41 @@
+[
+  {
+    "alignments": 308385,
+    "canaries": 32000,
+    "chunks": 108953,
+    "dependencies": 32465,
+    "description": "Public shadow/training split.",
+    "documents": 20000,
+    "occurrences": 308385,
+    "paragraphs": 142405,
+    "sections": 100000,
+    "split": "shadow",
+    "units": 275920
+  },
+  {
+    "alignments": 2228,
+    "canaries": 198,
+    "chunks": 635,
+    "dependencies": 166,
+    "description": "Development and configuration split.",
+    "documents": 100,
+    "occurrences": 1608,
+    "paragraphs": 641,
+    "sections": 500,
+    "split": "dev",
+    "units": 1442
+  },
+  {
+    "alignments": 13677,
+    "canaries": 1181,
+    "chunks": 3744,
+    "dependencies": 1016,
+    "description": "Evaluation split with all 24 families.",
+    "documents": 600,
+    "occurrences": 9894,
+    "paragraphs": 3645,
+    "sections": 3000,
+    "split": "test",
+    "units": 8878
+  }
+]

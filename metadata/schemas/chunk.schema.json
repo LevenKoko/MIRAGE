@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "char_end": {
+      "type": "integer"
+    },
+    "char_start": {
+      "type": "integer"
+    },
+    "chunk_id": {
+      "type": "string"
+    },
+    "chunk_index": {
+      "type": "integer"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "overlap_left": {
+      "type": "integer"
+    },
+    "overlap_right": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "string"
+    },
+    "text_sha256": {
+      "type": "string"
+    },
+    "token_count": {
+      "type": "integer"
+    },
+    "token_end": {
+      "type": "integer"
+    },
+    "token_start": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "chunk_id",
+    "document_id",
+    "chunk_index",
+    "token_start",
+    "token_end",
+    "char_start",
+    "char_end",
+    "overlap_left",
+    "overlap_right",
+    "token_count",
+    "text",
+    "text_sha256"
+  ],
+  "title": "MIRAGE CanaryDocs chunk",
+  "type": "object"
+}

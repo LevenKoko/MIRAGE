@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying EMNLP 2026 paper."
+title: "MIRAGE CanaryDocs"
+type: dataset
+version: "1.0.0"
+date-released: "2026-08-30"
+license: CC-BY-4.0
+authors:
+  - family-names: "Zheng"
+    given-names: "Liwen"
+    email: "zhenglw25@mails.tsinghua.edu.cn"
+    affiliation: "Tsinghua Shenzhen International Graduate School, Shenzhen, China"
+  - family-names: "Li"
+    given-names: "Qing"
+    affiliation: "Peng Cheng Laboratory, Shenzhen, China"
+  - family-names: "Zou"
+    given-names: "Qingsong"
+    affiliation: "Tsinghua Shenzhen International Graduate School, Shenzhen, China"
+  - family-names: "Jiang"
+    given-names: "Yong"
+    affiliation: "Tsinghua Shenzhen International Graduate School, Shenzhen, China"
+preferred-citation:
+  type: conference-paper
+  title: "When Metadata Remembers: Ordered Provenance Enables Document-Level Embedding Inversion"
+  authors:
+    - family-names: "Zheng"
+      given-names: "Liwen"
+    - family-names: "Li"
+      given-names: "Qing"
+    - family-names: "Zou"
+      given-names: "Qingsong"
+    - family-names: "Jiang"
+      given-names: "Yong"
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+  year: 2026

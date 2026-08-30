@@ -1,0 +1,33 @@
+# Dataset payloads are hosted on Hugging Face, not in this repository.
+data/
+database/
+views/
+downloads/
+MIRAGE-CanaryDocs/
+
+*.jsonl
+*.parquet
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Credentials and local configuration.
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Local tooling.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/

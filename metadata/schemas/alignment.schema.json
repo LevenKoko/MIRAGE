@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "alignment_id": {
+      "type": "string"
+    },
+    "char_overlap_end": {
+      "type": "integer"
+    },
+    "char_overlap_start": {
+      "type": "integer"
+    },
+    "chunk_id": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "occurrence_id": {
+      "type": "string"
+    },
+    "relation": {
+      "type": "string"
+    },
+    "token_overlap_end": {
+      "type": "integer"
+    },
+    "token_overlap_start": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "alignment_id",
+    "document_id",
+    "occurrence_id",
+    "chunk_id",
+    "relation",
+    "char_overlap_start",
+    "char_overlap_end",
+    "token_overlap_start",
+    "token_overlap_end"
+  ],
+  "title": "MIRAGE CanaryDocs occurrence/chunk alignment",
+  "type": "object"
+}

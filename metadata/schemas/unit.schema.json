@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "document_id": {
+      "type": "string"
+    },
+    "family_specific": {
+      "type": "boolean"
+    },
+    "format_family": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "is_canary": {
+      "type": "boolean"
+    },
+    "normalized": {
+      "type": "string"
+    },
+    "occurrence_count": {
+      "type": "integer"
+    },
+    "planned_repeat": {
+      "type": "boolean"
+    },
+    "semantic_role": {
+      "type": "string"
+    },
+    "surface": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "entity_mention",
+        "email_account",
+        "date_time",
+        "amount_numeric",
+        "url_path_token",
+        "identifier_case_id",
+        "canary_string",
+        "rare_domain_ngram",
+        "other_non_anchorable"
+      ]
+    },
+    "unit_id": {
+      "type": "string"
+    },
+    "value_pool_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "unit_id",
+    "document_id",
+    "type",
+    "format_family",
+    "surface",
+    "normalized",
+    "value_pool_id",
+    "semantic_role",
+    "is_canary",
+    "family_specific",
+    "planned_repeat",
+    "occurrence_count"
+  ],
+  "title": "MIRAGE CanaryDocs Gold unit",
+  "type": "object"
+}

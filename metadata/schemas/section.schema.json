@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "char_end": {
+      "type": "integer"
+    },
+    "char_start": {
+      "type": "integer"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "paragraph_count": {
+      "type": "integer"
+    },
+    "section_id": {
+      "type": "string"
+    },
+    "section_index": {
+      "type": "integer"
+    },
+    "token_end": {
+      "type": "integer"
+    },
+    "token_start": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "section_id",
+    "document_id",
+    "section_index",
+    "heading",
+    "char_start",
+    "char_end",
+    "token_start",
+    "token_end",
+    "paragraph_count"
+  ],
+  "title": "MIRAGE CanaryDocs section",
+  "type": "object"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "counts": {
+      "dev": 197,
+      "shadow": 37404,
+      "test": 1179
+    },
+    "description": "Synthetic person, team, organization, or named entity mention.",
+    "is_canary_type": false,
+    "type": "entity_mention"
+  },
+  {
+    "counts": {
+      "dev": 90,
+      "shadow": 17244,
+      "test": 586
+    },
+    "description": "Synthetic email or account identifier using non-routable domains.",
+    "is_canary_type": false,
+    "type": "email_account"
+  },
+  {
+    "counts": {
+      "dev": 145,
+      "shadow": 28694,
+      "test": 883
+    },
+    "description": "Normalized date, timestamp, or time interval.",
+    "is_canary_type": false,
+    "type": "date_time"
+  },
+  {
+    "counts": {
+      "dev": 190,
+      "shadow": 37303,
+      "test": 1186
+    },
+    "description": "Currency amount or normalized numeric quantity.",
+    "is_canary_type": false,
+    "type": "amount_numeric"
+  },
+  {
+    "counts": {
+      "dev": 186,
+      "shadow": 37320,
+      "test": 1186
+    },
+    "description": "Synthetic URL, file path, repository path, or location token.",
+    "is_canary_type": false,
+    "type": "url_path_token"
+  },
+  {
+    "counts": {
+      "dev": 196,
+      "shadow": 37314,
+      "test": 1187
+    },
+    "description": "Synthetic request, case, ticket, invoice, or decision identifier.",
+    "is_canary_type": false,
+    "type": "identifier_case_id"
+  },
+  {
+    "counts": {
+      "dev": 198,
+      "shadow": 32000,
+      "test": 1181
+    },
+    "description": "Synthetic canary marker used for controlled recovery evaluation.",
+    "is_canary_type": true,
+    "type": "canary_string"
+  },
+  {
+    "counts": {
+      "dev": 140,
+      "shadow": 28641,
+      "test": 890
+    },
+    "description": "Synthetic low-frequency domain phrase.",
+    "is_canary_type": false,
+    "type": "rare_domain_ngram"
+  },
+  {
+    "counts": {
+      "dev": 100,
+      "shadow": 20000,
+      "test": 600
+    },
+    "description": "Explicit protected phrase outside the anchor-oriented types.",
+    "is_canary_type": false,
+    "type": "other_non_anchorable"
+  }
+]
