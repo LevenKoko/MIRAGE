@@ -95,8 +95,6 @@ The test split contains `600` documents, `3744` actual chunks,
 **When Metadata Remembers: Ordered Provenance Enables Document-Level Embedding Inversion**  
 Liwen Zheng, Qing Li, Qingsong Zou, and Yong Jiang. EMNLP 2026.
 
-Contact: Liwen Zheng (`zhenglw25@mails.tsinghua.edu.cn`). See `CITATION.cff` for citation metadata.
-
 ## License
 
 CC BY 4.0. See `LICENSE`.

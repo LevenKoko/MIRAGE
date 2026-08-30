@@ -12,10 +12,6 @@
   "canonical_format": "normalized JSONL",
   "canonical_root": "data",
   "checksums": "metadata/checksums.sha256",
-  "contact": {
-    "email": "zhenglw25@mails.tsinghua.edu.cn",
-    "name": "Liwen Zheng"
-  },
   "entity_layers": [
     "documents",
     "sections",

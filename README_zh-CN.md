@@ -62,6 +62,4 @@ snapshot_download(
 **When Metadata Remembers: Ordered Provenance Enables Document-Level Embedding Inversion**  
 Liwen Zheng, Qing Li, Qingsong Zou, Yong Jiang，EMNLP 2026。
 
-联系人：Liwen Zheng（`zhenglw25@mails.tsinghua.edu.cn`）。引用信息见 `CITATION.cff`。
-
 数据采用 CC BY 4.0 许可。

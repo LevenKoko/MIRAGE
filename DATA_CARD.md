@@ -51,8 +51,6 @@ should not be used as evidence about real people, organizations, credentials, or
 **When Metadata Remembers: Ordered Provenance Enables Document-Level Embedding Inversion**  
 Liwen Zheng, Qing Li, Qingsong Zou, and Yong Jiang. EMNLP 2026.
 
-Contact: Liwen Zheng (`zhenglw25@mails.tsinghua.edu.cn`).
-
 ## License
 
 Creative Commons Attribution 4.0 International (CC BY 4.0).
