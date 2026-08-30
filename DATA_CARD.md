@@ -46,7 +46,7 @@ The GitHub repository contains documentation, schemas, and release metadata only
 The text is synthetic and may contain formulaic phrasing or intentionally unusual identifiers. It
 should not be used as evidence about real people, organizations, credentials, or operational systems.
 
-## Associated paper and contact
+## Associated paper
 
 **When Metadata Remembers: Ordered Provenance Enables Document-Level Embedding Inversion**  
 Liwen Zheng, Qing Li, Qingsong Zou, and Yong Jiang. EMNLP 2026.
